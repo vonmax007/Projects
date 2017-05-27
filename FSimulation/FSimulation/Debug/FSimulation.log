@@ -1,0 +1,62 @@
+﻿生成启动时间为 2016/10/19 18:38:27。
+     1>项目“E:\Projects\FSimulation\FSimulation\FSimulation.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\FSimulation.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\FSimulation.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\FSimulation.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\FSimulation.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AGV.cpp Dialog_AGV_num_set.cpp Dialog_Set_Time_Scale.cpp FSimulation.cpp FSimulationDoc.cpp FSimulationView.cpp MainFrm.cpp Map_Resource.cpp
+         Map_Resource.cpp
+         MainFrm.cpp
+         FSimulationView.cpp
+         FSimulationDoc.cpp
+         FSimulation.cpp
+         Dialog_Set_Time_Scale.cpp
+         Dialog_AGV_num_set.cpp
+         AGV.cpp
+     1>e:\projects\fsimulation\fsimulation\agv.cpp(30): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\projects\fsimulation\fsimulation\agv.cpp(31): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\FSimulation.res" FSimulation.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\FSimulation.exe.embed.manifest.res" Debug\FSimulation_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects\FSimulation\Debug\FSimulation.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\FSimulation.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Projects\FSimulation\Debug\FSimulation.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projects\FSimulation\Debug\FSimulation.lib" /MACHINE:X86 Debug\FSimulation.res
+         Debug\FSimulation.exe.embed.manifest.res
+         Debug\AGV.obj
+         Debug\Dialog_AGV_num_set.obj
+         Debug\Dialog_Set_Time_Scale.obj
+         Debug\FSimulation.obj
+         Debug\FSimulationDoc.obj
+         Debug\FSimulationView.obj
+         Debug\MainFrm.obj
+         Debug\Map_Resource.obj
+         Debug\stdafx.obj
+       Manifest:
+         正在删除文件“Debug\FSimulation.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\FSimulation.exe.embed.manifest" /manifest Debug\FSimulation.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\FSimulation.exe.embed.manifest.res" Debug\FSimulation_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects\FSimulation\Debug\FSimulation.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\FSimulation.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Projects\FSimulation\Debug\FSimulation.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projects\FSimulation\Debug\FSimulation.lib" /MACHINE:X86 Debug\FSimulation.res
+         Debug\FSimulation.exe.embed.manifest.res
+         Debug\AGV.obj
+         Debug\Dialog_AGV_num_set.obj
+         Debug\Dialog_Set_Time_Scale.obj
+         Debug\FSimulation.obj
+         Debug\FSimulationDoc.obj
+         Debug\FSimulationView.obj
+         Debug\MainFrm.obj
+         Debug\Map_Resource.obj
+         Debug\stdafx.obj
+         FSimulation.vcxproj -> E:\Projects\FSimulation\Debug\FSimulation.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\FSimulation.unsuccessfulbuild”。
+         正在对“Debug\FSimulation.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Projects\FSimulation\FSimulation\FSimulation.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.22

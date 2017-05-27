@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1477150888 source:e:\projects\greedgiftgiver\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
